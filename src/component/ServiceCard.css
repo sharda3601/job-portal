@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hero-1{
+   display: flex;
+   justify-content: center;
+
+}
+
+.hero-card{
+    /* width: 100vw; */
+    /* height: 0 auto; */
+    display: flex;
+    justify-content: center;
+    align-content: center; 
+    flex-wrap: nowrap;
+    margin-top: 50px;
+   
+}
+
+.card-row{
+    /* width: 100%; */
+   display: flex;
+   justify-content: center;
+   align-content: center;
+   flex-wrap: nowrap;
+   
+
+
+}

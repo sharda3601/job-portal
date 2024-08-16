@@ -1,0 +1,91 @@
+.header{
+    display: flex;
+   
+}
+.header img{
+    height: 100px;
+    border-radius: 50%;
+}
+.header-title{
+    padding-top: 30px;
+    text-align: center;
+}
+.header-title h6{
+    font-size: 14px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+.groupbtn{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+.groupbtn .btn-1{
+   margin-right: 10px;
+   font-size: 12px;
+   padding: 4px;
+   border-radius: 3px;
+   background-color: rgba(243, 35, 104, 0.808);
+   border: white;
+  
+}
+.groupbtn .btn-2{
+    margin-right: 10px;
+    font-size: 12px;
+    padding: 4px;
+    border-radius: 3px;
+    background-color: rgb(94, 233, 210);
+    border: white;
+   
+ }
+ .groupbtn .btn-3{
+    margin-right: 10px;
+    font-size: 12px;
+    padding: 4px;
+    border-radius: 3px;
+    background-color: rgb(80, 240, 101);
+    border: white;
+   
+ }
+.card-text{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+.card-section{
+    /* width: 80%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.card{
+    width: 300px;
+    margin: 20px;
+    box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.5); 
+}
+.apply-btn{
+    display: flex;
+    justify-content: end;
+}
+
+
+
+.bg-card{
+    width: 90%;
+   
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgba(73, 214, 202, 0.349);
+    border-radius: 5px;
+    
+}
+
+.col-md-12{
+    display: flex;
+    justify-content: center;
+}
