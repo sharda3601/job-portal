@@ -31,15 +31,13 @@ function App() {
      <BrowserRouter>
         <Routes>
           <Route path="/" element={<Nav />}>
-          <Route index element={<Login />} />
-          <Route index element={<Home />} />
-           {/* <Route path="Job" element={<Job />} /> */}
+          <Route path='/login' element={<Login />} />
+          <Route path="/home" element={<Home />} />
             <Route path="FresherJob" element={<FresherJob />} />
             <Route path="SalesJob" element={<SalesJob />} />
             <Route path="RemoteJob" element={<RemoteJob />} />
             <Route path="ITJob" element={<ITJob />} />
 
-            {/*<Route path="Companies" element={<Companies />} /> */}
             <Route path="ITCompanies" element={<ITCompanies />} />
             <Route path="TopCompanies" element={<TopCompanies />} />
             <Route path="MNCCompanies" element={<MNCCompanies />} />
@@ -53,10 +51,9 @@ function App() {
 
             <Route path='CompaniesForm' element={<CompaniesForm/>}/> 
 
-              <Route path='Login' element={<Login/>}/> 
-              <Route path="Home" element={<Home />} />
+              
               <Route path='Jobseeker' element={<Jobseeker/>}/> 
-              <Route path='Register' element={<Register/>}/> 
+              <Route path='/register' element={<Register/>}/> 
               <Route path='JobForm' element={<JobForm/>}/> 
 
               <Route path="Emptbl" element={<Emptbl/>}/>

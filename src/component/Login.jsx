@@ -1,6 +1,6 @@
 import Button from 'react-bootstrap/Button';
 import React,{Component} from 'react';
-import Col from 'react-bootstrap/Col';
+import { Link } from 'react-router-dom';
 import Form from 'react-bootstrap/Form';
 import Row from 'react-bootstrap/Row';
 class Login extends Component {
@@ -73,7 +73,7 @@ render(){
             <Row className='mb-3'>
            <Form.Group className="mb-3 px-4" id="formGridCheckbox">
              <Form.Check required type="checkbox" label="Check me out" />
-             <p className='text-primary text-center mt-3 mb-0'>If you are not registered <a href='Register'> Register Here</a>
+             <p className='text-primary text-center mt-3 mb-0'>If you are not registered <Link to='/register'> Register Here</Link>
       </p>
            </Form.Group>
            </Row>
@@ -113,7 +113,7 @@ render(){
             <Row className='mb-3'>
            <Form.Group className="mb-3 px-4" id="formGridCheckbox">
              <Form.Check required type="checkbox" label="Check me out" />
-             <p className='text-primary text-center mt-3 mb-0'>If you are not registered <a href='Register'> Register Here</a>
+             <p className='text-primary text-center mt-3 mb-0'>If you are not registered <Link to='/register'> Register Here</Link>
       </p>
            </Form.Group>
            </Row>
