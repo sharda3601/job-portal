@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 const a = {
     color : "white",
     textTransform : "capitalize",
@@ -19,30 +20,30 @@ function Admin(){
             <hr></hr>
             <ul className="nav flex-column">
                 <li className="nav-item nav-pills">
-                    <a href="Dashboard" className="nav-link" style={a}> 
+                    <Link to="/dashboard" className="nav-link" style={a}> 
                     <i class="bi bi-cup-hot-fill me-1"></i>
-                    Dashboard</a>
+                    Dashboard</Link>
                 </li>
                 <li className="nav-item">
-                    <a href="CategoryJob" className="nav-link" style={a}>
-                    <i class="bi bi-bookmarks me-1"></i>Job Categories</a>
+                    <Link to="/categoryJob" className="nav-link" style={a}>
+                    <i class="bi bi-bookmarks me-1"></i>Job Categories</Link>
                 </li><li className="nav-item">
-                    <a href="Emptbl" className="nav-link" style={a}>
-                    <i class="bi bi-people-fill me-1"></i>List of Employers</a>
+                    <Link to="/emptbl" className="nav-link" style={a}>
+                    <i class="bi bi-people-fill me-1"></i>List of Employers</Link>
                 </li><li className="nav-item">
-                    <a href="Candidates" className="nav-link" style={a}>
-                    <i class="bi bi-person-vcard me-1"></i>Reg Jobseekers</a>
+                    <Link to="/candidates" className="nav-link" style={a}>
+                    <i class="bi bi-person-vcard me-1"></i>Reg Jobseekers</Link>
                 </li>
                 <li className="nav-item">
-                    <a href="#" className="nav-link" style={a}>
-                    <i class="bi bi-file-earmark-richtext-fill me-1"></i>Pages</a>
+                    <Link to="#" className="nav-link" style={a}>
+                    <i class="bi bi-file-earmark-richtext-fill me-1"></i>Pages</Link>
                 </li><li className="nav-item">
-                    <a href="#" className="nav-link" style={a}>
-                    <i class="bi bi-file-bar-graph-fill me-1"></i>Reports</a>
+                    <Link to="#" className="nav-link" style={a}>
+                    <i class="bi bi-file-bar-graph-fill me-1"></i>Reports</Link>
                 </li>
                 <li className="nav-item">
-                    <a href="#" className="nav-link" style={a}>
-                    <i class="bi bi-search me-1"></i>Search</a>
+                    <Link to="#" className="nav-link" style={a}>
+                    <i class="bi bi-search me-1"></i>Search</Link>
                 </li>
                 
             </ul>

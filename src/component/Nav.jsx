@@ -6,7 +6,7 @@ function Nav() {
     <div>
       <ul style={{ listStyle: "none", padding : "0", margin: "0" }}>
         <li>
-          <Link to="/Home"></Link>
+          <Link to="/"></Link>
         </li>
         <li>
           <Link to="Job"></Link>

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const a = {
     color : "black",
@@ -12,7 +13,7 @@ function Section2(){
         <div className="row justify-content-center" style={{marginBottom :30}}>
             <div className="col-lg-2 col-md-3 col-sm-4 p-3 mb-3 py-4 border mx-1 rounded shadow-sm">    
             <i className="bi bi-house-door px-2" style={{fontSize: 20}}></i>
-            <a href="#" style={a}>Remote</a>
+            <Link href="#" style={a}>Remote</Link>
             <b><i className="bi bi-chevron-right px-2"></i></b>
             </div>
             <div className="col-lg-2 col-md-3 col-sm-4 mb-3 border p-3 py-4 mx-1 rounded shadow-sm">    

@@ -4,7 +4,6 @@ import Footer from "./Footer";
 import CardHeaderJob from "./CardHeaderJob";
 import './Cards.css';
 
-
 function ITJob() {
     return ( 
         <React.Fragment>

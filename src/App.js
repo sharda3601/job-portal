@@ -2,7 +2,6 @@
 import './App.css';
 import { Route, Routes, BrowserRouter } from "react-router-dom";
 import Home from './component/Home';
-import Nav from './component/Nav';
 import FresherJob from './component/FresherJob';
 import SalesJob from './component/SalesJob';
 import RemoteJob from './component/RemoteJob';
@@ -28,12 +27,12 @@ import CategoryJob from './component/CategoryJob';
 function App() {
   return (
     <div className="App">
-     <BrowserRouter>
+     <BrowserRouter basename='job-portal'>
         <Routes>
-          <Route path="/" element={<Nav />}>
+         
           <Route path='/login' element={<Login />} />
-          <Route path="/home" element={<Home />} />
-            <Route path="FresherJob" element={<FresherJob />} />
+          <Route path='/home' element={<Home />} />
+            <Route path="/fresherJob" element={<FresherJob />} />
             <Route path="SalesJob" element={<SalesJob />} />
             <Route path="RemoteJob" element={<RemoteJob />} />
             <Route path="ITJob" element={<ITJob />} />
@@ -60,9 +59,7 @@ function App() {
                   <Route path='Dashboard' element={<Dashboard/>}/>
                   <Route path="Emptbl" element={<Emptbl/>}/>
                   <Route path="CategoryJob" element={<CategoryJob/>}/>
-
-
-          </Route>
+      
         </Routes>
     </BrowserRouter> 
    </div>

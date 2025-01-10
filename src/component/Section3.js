@@ -39,7 +39,7 @@ function Section3(){
     {
         name :"Amazon",
         total : +1.8,
-        src : "./images/download (3).png"
+        src : "/images/download (3).png"
     },
     {
         name :"Cisco",
@@ -48,7 +48,7 @@ function Section3(){
     },{
         name : "Facebook",
         total : +1.7,
-        src : "./images/download (5).png"
+        src : "images/download (5).png"
     },
 ];
     return <React.Fragment>
